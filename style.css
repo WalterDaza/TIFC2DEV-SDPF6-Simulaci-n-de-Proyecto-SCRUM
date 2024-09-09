@@ -1,5 +1,102 @@
+*, *:after, *:before {     
+  margin: 0;     
+  padding: 0;     
+  box-sizing: border-box;     
+  text-decoration: none; 
+}
+
+body{
+  font-size: 100%;     
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+li{
+  list-style: none;
+}
+
+a:visited{
+  color: black;
+}
+
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
+  height: 100%;
+  width: 100%;    
+}
+/* Sección de navegación ***********************************************/
+.nav-var{
+  display: flex;
+  width: 100%;
+  background-color: rgb(139, 139, 139);
+  justify-content:space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.nav-bar-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-bar-img{
+  width: 150px;
+}
+
+/* Sección de pagina inicio ***********************************************/
+
+.section-baner{
+  display: flex;
+  width: 90%;
+  background-color: rgb(173, 112, 33);
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.section-baner-img{
+  width: 50vw;
+  position: relative;
+  top: 50px;
+}
+
+.section-baner-contenido{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* Sección de pagina inicio ***********************************************/
+
+.section-card{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  /* background-color: rgb(0, 255, 213); */
+  gap: 10px;
+  margin-top: 80px;
+}
+
+.section-card-info{
+  width: 350px;
+  background-color: rgb(221, 221, 221);
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.section-card-content-img{
+  background-color: blue;
+}
+
+.section-card-img{
+  width: 100%;
+}
