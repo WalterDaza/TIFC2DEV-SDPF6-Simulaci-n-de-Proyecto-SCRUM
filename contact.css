@@ -1,0 +1,72 @@
+h1 {
+    color: rgb(28, 136, 57);
+    text-align: center;
+}
+
+.section-form {
+    background-color: rgb(235, 234, 234);
+    border-radius: 10px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*primer parametro (100px) pone margen en la parte arriba y abajo, y el segundo parametro (0) pone margen a los lados*/
+    margin: 100px 0;
+    gap: 20px;
+}
+.section-form form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 50vw;   
+}
+
+.group-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input[type="text"],input[type="email"]{
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid  rgb(28, 136, 57);
+    justify-content: space-around;
+}
+
+#desc-input{
+    height: 100px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input[type="submit"]{
+    padding: 15px;
+    width: 200px;
+    font-size: 16px;
+    color:aliceblue;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(28, 136, 57);
+    align-self: center;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color:rgba(17, 104, 30, 0.993); 
+}
+
+small{
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+
+
