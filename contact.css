@@ -13,6 +13,7 @@ h1 {
     /*primer parametro (100px) pone margen en la parte arriba y abajo, y el segundo parametro (0) pone margen a los lados*/
     margin: 100px 0;
     gap: 20px;
+    margin-top: 150px;
 }
 .section-form form{
     display: flex;
